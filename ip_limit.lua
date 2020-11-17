@@ -5,7 +5,7 @@ if tonumber(num) == 1 then
 	return 1
 elseif tonumber(num) > tonumber(ARGV[2]) then
 	return 0
-else 
+else
 	return 1
 end
 
